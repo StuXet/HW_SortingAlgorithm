@@ -15,11 +15,14 @@ int main()
 
 	//Bubble sort
 	//first loop controls the number of passes through the list
-	for (int i = 0; i < 9; i++) {
+	for (int i = 0; i < 9; i++) 
+	{
 		//second loop for comparing and potentially swapping elements
-		for (int j = 0; j < 9 - i; j++) {
+		for (int j = 0; j < 9 - i; j++) 
+		{
 				//Check if the current element is larger than the next one
-			if (numbers[j] > numbers[j + 1]) {
+			if (numbers[j] > numbers[j + 1]) 
+			{
 				//Swap the elements
 				int temp = numbers[j];
 				numbers[j] = numbers[j + 1];
@@ -34,6 +37,7 @@ int main()
 	}
 	cout << endl;
 
+	system("pause");
 
 	return 0;
 }
